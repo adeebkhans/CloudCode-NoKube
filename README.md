@@ -69,8 +69,8 @@ This version is intended **for development and testing only**. It lacks proper s
 
 4. **Start Services**
    ```bash
-   # Backend
-   npm run start:dev
+   # Backend (for both init and runner service)
+   npm start
 
    # Frontend
    cd frontend && npm run dev
