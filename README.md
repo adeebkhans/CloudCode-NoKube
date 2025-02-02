@@ -51,8 +51,7 @@ This version is intended **for development and testing only**. It lacks proper s
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/your-org/cloud-code-local.git
-   cd cloud-code-local
+   git clone https://github.com/adeebkhans/CloudCode-NoKube.git
    ```
 
 2. **Setup Environment**
@@ -84,7 +83,7 @@ This version is intended **for development and testing only**. It lacks proper s
 
 ## Development Flow 🔄
 1. Users authenticate via JWT
-2. Projects created in `./projects/{username}/{replid}` directory
+2. Projects created in `./code/{username}/{replid}` directory
 3. Terminal sessions run in host environment
 4. File changes trigger Socket.IO updates
 5. All data stored on cloud persistence
