@@ -70,6 +70,10 @@ This version is intended **for development and testing only**. It lacks proper s
    ```bash
    # Backend (for both init and runner service)
    npm start
+    # Runner Service
+   cd backend/runner-service && npm start
+    Note: for note pty package you may see some errors, please make sure to install
+    "MSVC v143 - VS 2022 C++ x64/x86 Spectre-mitigated libraries" from visual studio builder
 
    # Frontend
    cd frontend && npm run dev
